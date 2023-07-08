@@ -1,0 +1,25 @@
+.container {
+    margin-top: 100px; /* Ajusta el valor según tus necesidades */
+    
+    
+  }
+  
+  .page-title {
+    margin-top: 50px; /* Ajusta el valor según tus necesidades */
+  }
+  
+  body{
+    background-image: url("/assets/hogwarts.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .table-responsive {
+    background-color:antiquewhite;
+
+  }
+
+  h1{
+    font-family: cursive;
+    font-size: medium;
+  }
