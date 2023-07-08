@@ -9,9 +9,10 @@
   }
   
   body{
-    background-image: url("/assets/hogwarts.jpg");
+    background-image: url("/assets/1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    
   }
 
   .table-responsive {
