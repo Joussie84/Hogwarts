@@ -1,27 +1,25 @@
-<!-- app/views/pages/index.html.erb -->
-<%= image_tag('background.jpg', id: 'background-image', style: 'position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;') %>
-
 <div class="container">
-  <h1 class="text-center mt-4 mb-4 page-title">Personajes de Harry Potter</h1>
-
-  <div class="table-responsive">
-    <table class="table table-hover">
-      <thead>
-        <tr>
-          <th>Nombre</th>
-          <th>Locación</th>
-          <th>Casa</th>
-        </tr>
-      </thead>
-      <tbody>
-        <% @characters.each do |character| %>
+    <h1 class="text-center mt-4 mb-4 page-title">Personajes de Harry Potter</h1>
+  
+  
+    <div class="table-responsive">
+      <table class="table table-hover">
+        <thead>
           <tr>
-            <td><%= character.name %></td>
-            <td><%= character.location %></td>
-            <td><%= character.house %></td>
+            <th>Nombre</th>
+            <th>Locación</th>
+            <th>Casa</th>
           </tr>
-        <% end %>
-      </tbody>
-    </table>
+        </thead>
+        <tbody>
+          <% @characters.each do |character| %>
+            <tr>
+              <td><%= character.name %></td>
+              <td><%= character.location %></td>
+              <td><%= character.house %></td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
   </div>
-</div>
